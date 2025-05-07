@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LCM Agro Consultoria</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #235723; color: white; padding: 1.5rem; text-align: center; }
+    nav { background: #1e4620; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    .hero { padding: 3rem 1rem; background: #f5f5f5; text-align: center; }
+    .section { padding: 2rem 1rem; max-width: 960px; margin: auto; }
+    .vip, .orcamento { background: #eef; border-radius: 8px; padding: 2rem; }
+    footer { background: #222; color: #ccc; text-align: center; padding: 1rem; }
+    .contact-links { margin-top: 1rem; }
+    .contact-links a { display: inline-block; margin: 0.5rem; color: #235723; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LCM Agro Consultoria</h1>
+    <p>Soluções completas para montagem, manutenção e consultoria em armazenagem de grãos</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#orcamento">Orçamento</a>
+    <a href="#vip">Plano VIP</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Precisando montar, manter ou modernizar seu armazém?</h2>
+    <p>A LCM Agro Consultoria conecta você com equipes especializadas em todas as áreas: montagem, civil, elétrica e manutenção.</p>
+  </div>
+
+  <section id="servicos" class="section">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Montagem de equipamentos industriais para grãos</li>
+      <li>Serviços de engenharia civil voltados para armazéns</li>
+      <li>Instalações e manutenções elétricas</li>
+      <li>Consultoria técnica e planos de manutenção preventiva</li>
+    </ul>
+  </section>
+
+  <section id="orcamento" class="section orcamento">
+    <h2>Solicite seu Orçamento</h2>
+    <form>
+      <label>Nome:<br><input type="text" name="nome"></label><br><br>
+      <label>Email:<br><input type="email" name="email"></label><br><br>
+      <label>Tipo de serviço:<br>
+        <select name="servico">
+          <option value="montagem">Montagem</option>
+          <option value="civil">Civil</option>
+          <option value="eletrica">Elétrica</option>
+          <option value="manutencao">Manutenção</option>
+        </select>
+      </label><br><br>
+      <label>Mensagem:<br><textarea name="mensagem" rows="5"></textarea></label><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="vip" class="section vip">
+    <h2>Plano VIP LCM Agro</h2>
+    <p>Assine o plano VIP e tenha acesso a:</p>
+    <ul>
+      <li>Materiais educativos: e-books, PDFs e tutoriais</li>
+      <li>Recomendações técnicas sobre equipamentos</li>
+      <li>Consultoria com técnicos especializados</li>
+      <li>Área restrita com acesso via login</li>
+    </ul>
+    <p><strong>Em breve com integração Mercado Pago</strong></p>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Contato</h2>
+    <p>Email: felipekdelera@gmail.com</p>
+    <p>Instagram: @lcm.agro</p>
+    <div class="contact-links">
+      <a href="https://wa.me/5566999698082" target="_blank">📲 WhatsApp: (66) 99969-8082</a><br>
+      <a href="mailto:felipekdelera@gmail.com">📧 Enviar E-mail</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LCM Agro Consultoria. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
